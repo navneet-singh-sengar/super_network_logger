@@ -1,7 +1,7 @@
 name: super_network_logger
 description: A Dio interceptor for logging network calls with color, styling and formatting support.
 version: 1.0.0
-homepage: "https://pub.dev/"
+homepage: "https://github.com/navneet-singh-profile/super_network_logger"
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
