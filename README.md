@@ -29,9 +29,9 @@ dio.interceptors.add(
 ## Output Sample
 
 
-** Success Log**
+Success Log
 ![Success Log](https://raw.githubusercontent.com/navneet-singh-profile/super_network_logger/main/images/success_image.png "Success Log")
 
-** Error Log**
+Error Log
 ![Error Log](https://raw.githubusercontent.com/navneet-singh-profile/super_network_logger/main/images/error_image.png "Error Log")
 
