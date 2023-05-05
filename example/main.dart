@@ -4,14 +4,16 @@ import 'package:dio/dio.dart';
 import 'package:super_network_logger/super_network_logger.dart';
 
 void main() async {
-  final dio = Dio()
-    ..interceptors.add(SuperNetworkLogger(
+  final dio = Dio();
+  dio.interceptors.add(
+    SuperNetworkLogger(
       logError: true,
       logRequest: true,
       logResponse: true,
       errorStyle: [Styles.RED, Styles.BLINK],
       logName: "SuperNetworkLogger",
-    ));
+    ),
+  );
 
   try {
     await dio.post(
