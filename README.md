@@ -1,5 +1,6 @@
 # super_network_logger
 
+[![super_network_logger](https://img.shields.io/pub/v/super_network_logger "super_network_logger")](https://github.com/navneet-singh-profile/super_network_logger "super_network_logger")
 
 Super Network Logger is a [Dio](https://pub.dev/packages/dio) interceptor for logging network calls with color, styling, and formatting support.
 
@@ -29,9 +30,8 @@ dio.interceptors.add(
 ## Output Sample
 
 
-Success Log
+###### Success Log
 ![Success Log](https://raw.githubusercontent.com/navneet-singh-profile/super_network_logger/main/images/success_image.png "Success Log")
 
-Error Log
+###### Error Log
 ![Error Log](https://raw.githubusercontent.com/navneet-singh-profile/super_network_logger/main/images/error_image.png "Error Log")
-
