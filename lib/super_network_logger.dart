@@ -147,10 +147,10 @@ class SuperNetworkLogger extends Interceptor {
   }
 
   @override
-  void onError(DioError err, ErrorInterceptorHandler handler) {
+  void onError(DioException err, ErrorInterceptorHandler handler) {
     final Uri? uri = err.response?.requestOptions.uri;
     if (logError) {
-      if (err.type == DioErrorType.badResponse) {
+      if (err.type == DioExceptionType.badResponse) {
         _printBoxed(
           header:
               'DioError ║ Status: ${err.response?.statusCode} ${err.response?.statusMessage}',

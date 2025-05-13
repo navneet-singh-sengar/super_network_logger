@@ -1,21 +1,20 @@
 name: super_network_logger
 description: A Dio interceptor for logging network calls with color, styling and formatting support.
-version: 1.0.2
+version: 2.0.0
 homepage: "https://github.com/navneet-singh-profile/super_network_logger"
 repository: "https://github.com/navneet-singh-profile/super_network_logger"
 issue_tracker: "https://github.com/navneet-singh-profile/super_network_logger/issues"
 
 environment:
-  sdk: '>=2.19.6 <3.0.0'
-  flutter: ">=1.17.0"
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  dio: ^5.1.1
+  dio: ^5.8.0+1
   colorize: ^3.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.1
+  flutter_lints: ^5.0.0
